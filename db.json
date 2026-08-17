@@ -1,4 +1,33 @@
 {
-  "tasks": [],
+  "tasks": [
+    {
+      "title": "Estudar React",
+      "completed": false,
+      "id": 1,
+      "priority": "high",
+      "dueDate": "2026-10-08"
+    },
+    {
+      "title": "Novo projeto React",
+      "completed": false,
+      "id": 2,
+      "priority": "low",
+      "dueDate": "2026-10-17"
+    },
+    {
+      "title": "Estudar React 2",
+      "completed": false,
+      "priority": "high",
+      "dueDate": "2026-08-28",
+      "id": 3
+    },
+    {
+      "title": "terceiro projeto",
+      "completed": false,
+      "priority": "high",
+      "dueDate": "2026-08-01",
+      "id": 4
+    }
+  ],
   "$schema": "./node_modules/json-server/schema.json"
 }

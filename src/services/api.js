@@ -29,3 +29,11 @@ export const toggleTask = async (task) => {
     }),
   });
 };
+
+export const updateTask = async (id, task) => {
+  await fetch(`${API_URL}/${id}`, {
+    method: "PUT",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify(task),
+  });
+};
